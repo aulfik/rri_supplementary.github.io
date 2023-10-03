@@ -1,0 +1,12 @@
+site_name: RRI Supplementary Docs
+site_url: https://www.instagram.com
+site_author: Aulia Fikri
+site_description: Supplementary Materials for My Thesis
+nav: 
+  - Home: index.md
+  - About: about.md
+theme:
+  name: readthedocs
+  highlightjs: true
+  hljs_languages:
+    - yaml
