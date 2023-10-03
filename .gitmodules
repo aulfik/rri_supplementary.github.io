@@ -1,0 +1,4 @@
+[submodule "rri_supplementary.github.io"]
+	path = rri_supplementary.github.io
+	url = git@github.com:aulfik/rri_supplementary.github.io.git
+	branch = main
