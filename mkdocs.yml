@@ -1,12 +1,14 @@
-site_name: My RRI Docs
+site_name: Supp
 site_url: https://www.instagram.com
 site_author: Aulia Fikri
-site_description: Supplementary Materials for My Thesis
+site_description: "Supplementary Materials for My Thesis"
+repo_url: "https://github.com/aulfik/rri_supplementary.github.io"
 nav: 
   - Home: index.md
   - About: about.md
 theme:
-  name: readthedocs
+  name: null
+  custom_dir: 'cinder'
   highlightjs: true
   hljs_languages:
     - yaml
