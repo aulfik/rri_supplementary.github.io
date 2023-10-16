@@ -1,7 +1,7 @@
-Hi 👋 My name is Aulia Fikri
+## Hi 👋 My name is Aulia Fikri
 ============================
 
-Mahasiswa Program Magister Teknik Sipil
+### Mahasiswa Program Magister Teknik Sipil
 ---------------------
 
 A human that always trying to learn something extraordinary, something that could be useful for me and people around the world. Passionate in programming, data, and learning. For me, learning is the most interesting thing in the world.

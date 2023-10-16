@@ -1,4 +1,4 @@
-# Supplementary dari penelitian tesis
+# Supplementary *Rainfall-Runoff-Inundation Model* 
 
 Untuk melihat full teks tulisan dapat diakses di  [digilib.unila.ac.id](http://digilib.unila.ac.id/id/eprint/72609) serta artikel ilmiah [dalam proses].
 
@@ -30,12 +30,18 @@ Untuk pengguna _**Windows**_ dapat mengikuti langkah persiapan sebagai berikut:
     4. Menambahkan `C:\RRI\RRI-CUI\bin\` (untuk 64 bit) atau `C:\RRI\RRI-CUI\bin32\` (untuk 32 bit) pada baris belakang, klik OK. **JANGAN MENGHAPUS existing PATH settings**
     ![add PATH](./images/SCR-20231003-qimv.png "add PATH").   
 
-Menginstall Intel Fortran pada sistem operasi:  
-Untuk pengguna _**Windows**_ dapat mengikuti langkah berikut:  
-    1. Jalankan **RRI/RRI-CUI/etc/w-fcompxe/w_fcompxe_redist_intel64_2013.5.198.msi** (for 64 bit) atau **RRI/RRI-CUI/etc/w-fcompxe/w_fcompxe_redist_ia32_2013.5.198.msi (for 32 bit)**,  
-    ini diperlukan untuk menjalankan program RRI yang dikompilasi oleh Intel Fortran.  
+Sesungguhnya ntuk pengguna _**MacOS/linux/Windows**_ secara lengkap dapat diunduh pada [Intel® Fortran Compiler](https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler.html#gs.6hhzgj) mengikuti langkah install dan penggunaan [Compiler Setup](https://www.intel.com/content/www/us/en/docs/fortran-compiler/developer-guide-reference/2023-2/compiler-setup.html). Namun akan dijelaskan secara singkat dibawah ini.
 
-Untuk pengguna _**MacOS/linux/Windows**_ secara lengkap dapat diunduh pada [Intel® Fortran Compiler](https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler.html#gs.6hhzgj) mengikuti langkah install dan penggunaan [Compiler Setup](https://www.intel.com/content/www/us/en/docs/fortran-compiler/developer-guide-reference/2023-2/compiler-setup.html).
+Menginstall Intel Fortran pada sistem operasi yang digunakan, hal ini diperlukan untuk menjalankan program RRI yang dikompilasi oleh Intel Fortran.   
+
+Untuk pengguna _**Windows**_ dapat mengikuti langkah berikut:  
+    1. Jalankan **RRI/RRI-CUI/etc/w-fcompxe/w_fcompxe_redist_intel64_2013.5.198.msi** (untuk 64 bit) atau **RRI/RRI-CUI/etc/w-fcompxe/w_fcompxe_redist_ia32_2013.5.198.msi** (untuk 32 bit), berkas ini tersedia pada paket unduhan program RRI.    
+
+
+
+`sudo chmod a+rwx l_fortran-compiler_p_2023.2.1.8.sh`   
+`./l_fortran-compiler_p_2023.2.1.8.sh`
+
 ## Data
 
 ### Data Topografi

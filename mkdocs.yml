@@ -1,4 +1,4 @@
-site_name: Supp
+site_name: AF
 site_url: https://www.instagram.com
 site_author: Aulia Fikri
 site_description: "Supplementary Materials for My Thesis"
@@ -7,8 +7,7 @@ nav:
   - Home: index.md
   - About: about.md
 theme:
-  name: null
-  custom_dir: 'cinder'
+  name: cinder
   highlightjs: true
   hljs_languages:
     - yaml
