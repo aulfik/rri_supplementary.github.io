@@ -7,8 +7,7 @@ nav:
   - Home: index.md
   - About: about.md
 theme:
-  name: null
-  custom_dir: 'cinder/'
+  name: readthedocs
   highlightjs: true
   hljs_languages:
     - yaml
